@@ -43,35 +43,150 @@ table {
 	border-spacing: 0;
 }
 .background {
+	position: relative;
 	margin: 0 auto;
 	width: 600px;
 	height: 500px;
-background-image: url(img/kvit.jpg) ;
+	background-image: url(img/kvit.jpg) ;
 }
 input {
-	height: 10px;
-	border: 1px solid red;
+	position: absolute;
 	background-color: transparent;
-;
-
+	font-size: 7pt;
+	border:none;
 }
-.input-1 {
-	position: relative;
-	padding-top: 46px;
-	padding-left:146px;
+.input-1 input {
+	width: 118px;
+	height: 11px;
+	margin-top: 50px;
+	margin-left: 146px;
+	font-size: 10px;
+	letter-spacing: 7px;
+	padding-left: 3px;
 }
-.input-2 {
-	position: relative;
-	margin-top:-17px;
-	padding-left:325px;
+.input-2 input {
+	width: 247px;
+	height: 11px;
+	margin-top:50px;
+	margin-left:326px;
+	letter-spacing: 7px;
 }
-.input-3 {
-	position: relative;
-	margin-top: 3px;
-	padding-left:160px;
+.input-3 input {
+	width: 111px;
+	height: 11px;
+	margin-top:72px;
+	margin-left:462px;
+	letter-spacing: 7px;
 }
-.input-4 {
-	position: relative;
-	margin-top: -17px;
-	padding-left:460px;
+.input-4 input {
+	width: 245px;
+	height: 11px;
+	margin-top:93px;
+	margin-left:327px;
+	letter-spacing: 7px;
 }
+.input-bank-name input {
+	width: 262px;
+	height: 11px;
+	margin-top:71px;
+	margin-left:162px;
+	text-align: center;
+}
+.input-pay-name input {
+	width: 204px;
+	height: 11px;
+	margin-top:108px;
+	margin-left:150px;
+	text-align: center;
+}
+.input-OKATO input {
+	width: 64px;
+	height: 11px;
+	margin-top:108px;
+	margin-left:427px;
+	text-align: center;
+}
+.input-KPP input {
+	width: 44px;
+	height: 11px;
+	margin-top:108px;
+	margin-left:517px;
+	text-align: center;
+}
+.input-name input {;
+	width: 310px;
+	height: 11px;
+	margin-top:129px;
+	margin-left:255px;
+	text-align: center;
+}
+.input-adress input {
+	width: 320px;
+	height: 11px;
+	margin-top:145px;
+	margin-left:245px;
+	text-align: center;
+}
+.input-sum-rub-1 input{
+	width: 44px;
+	height: 11px;
+	margin-top:161px;
+	margin-left:220px;
+	text-align: center;
+}
+.input-sum-cop-1 input{
+	width: 15px;
+	height: 11px;
+	margin-top:161px;
+	margin-left:292px;
+	text-align: center;
+}
+.input-sum-rub-2 input{
+	width: 44px;
+	height: 11px;
+	margin-top:176px;
+	margin-left:180px;
+	text-align: center;
+}
+.input-sum-cop-2 input{
+	width: 15px;
+	height: 11px;
+	margin-top:176px;
+	margin-left:252px;
+	text-align: center;
+}
+.input-sum-rub-3 input{
+	width: 44px;
+	height: 11px;
+	margin-top:161px;
+	margin-left:461px;
+	text-align: center;
+}
+.input-sum-cop-3 input{
+	width: 15px;
+	height: 11px;
+	margin-top:161px;
+	margin-left:530px;
+	text-align: center;
+}
+.input-date-day input{
+	width: 18px;
+	height: 11px;
+	margin-top:176px;
+	margin-left:426px;
+	text-align: center;
+}
+.input-date-month input{
+	width: 62px;
+	height: 11px;
+	margin-top:176px;
+	margin-left:462px;
+	text-align: center;
+}
+.input-date-year input{
+	width: 18px;
+	height: 11px;
+	margin-top:176px;
+	margin-left:542px;
+	text-align: center;
+}	
